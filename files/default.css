@@ -1,31 +1,79 @@
 /* CSS for HTML - Def */
+html{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto',sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
 html, body, ul, section{
   margin: 0px;
   padding: 0px;
-}
-section{
-  float: left;
-  max-width: 700px;
-}
-section > article{
-  padding: 40px;
-}
-section > figure{
-  margin: 0px;
-  padding: 0px;
-  display: block;
-}
-
-
-html{
-  font-size: 16px;
-  font-weight: 300;
-  font-family: 'Roboto',sans-serif;
 }
 body{
   width: 950px;
   margin: auto;
 }
+.clear{
+  clear: both;
+}
+h1,h2,h3,h4,h5{
+  font-weight: 500;
+}
+code{
+  background-color:#E0E0E0;
+  display: block;
+  padding: 16px;
+}
+article aside{
+  background-color:#E0E0E0;
+  display: block;
+  padding: 16px;
+  margin: 16px 0px 16px 16px;
+}
+
+
+section{
+  float: left;
+  padding: 16px 0px;
+  max-width: 670px;
+}
+article{
+  padding: 32px;
+}
+section > header{
+  padding: 16px 16px;
+  font-weight: 400;
+  background-image: url('img.jpg');
+  background-size: cover;
+}
+section > header > h1{
+  margin: 0px;
+  display: block;
+  float: left;
+  clear: both;
+  font-size: 40px;
+  background-color: #FFF;
+  padding: 8px 16px;
+  font-weight: 300;
+}
+section > header > p{
+  clear: both;
+    background-color: #FFF;
+    margin: 0px;
+    padding: 8px 16px;
+}
+section > article{
+  padding: 32px;
+}
+
+section > figure{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  clear: both;
+}
+
+
 nav{
   background-color: #E0E0E0;
 }
