@@ -1,4 +1,21 @@
 /* CSS for HTML - Def */
+html, body, ul, section{
+  margin: 0px;
+  padding: 0px;
+}
+section{
+  float: left;
+  max-width: 700px;
+}
+section > article{
+  padding: 40px;
+}
+section > figure{
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
 
 html{
   font-size: 16px;
@@ -11,11 +28,8 @@ body{
 }
 nav{
   background-color: #E0E0E0;
-
 }
 nav > ul{
-  margin: 0px;
-  padding: 0px;
   list-style: none;
 }
 nav > ul > li {
@@ -23,7 +37,6 @@ nav > ul > li {
 }
 nav > ul > li > a{
   display: block;
-
   border-right: #FFF 2px solid;
   padding: 8px 16px;
   line-height: 16px;
@@ -31,26 +44,25 @@ nav > ul > li > a{
   text-transform: uppercase;
   text-decoration: none;
 }
+/* aside */
+aside > nav > ul > li {
+  display: block;
+}
+aside > nav > ul > li > a{
+  display: block;
+  border-bottom: #FFF 2px solid;
+  padding: 8px 16px;
+  line-height: 16px;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+aside > article{
+  padding: 16px 0px;
+}
+aside > article > header > figure{}
+aside > article > header > figure > img{}
 
-
-  section{
-    float: left;
-    max-width: 700px;
-    padding: 16px 0px;
-  }
-  article{
-    padding: 16px;
-  }
-  article > header{
-    width: 100%;
-    box-sizing: border-box;
-  }
-  article > figure{
-    display: block;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-  }
   aside{
     display: block;
     float: right;
