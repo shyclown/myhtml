@@ -31,7 +31,6 @@ article aside{
   margin: 16px 0px 16px 16px;
 }
 
-
 section{
   float: left;
   padding: 16px 0px;
@@ -43,7 +42,7 @@ article{
 section > header{
   padding: 16px 16px;
   font-weight: 400;
-  background-image: url('img.jpg');
+  background-image: url('/images/img.jpg');
   background-size: cover;
 }
 section > header > h1{
